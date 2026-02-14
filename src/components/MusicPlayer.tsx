@@ -33,7 +33,7 @@ export function MusicPlayer() {
 
     return (
         <div className="fixed bottom-4 right-4 bg-white/80 backdrop-blur-md p-3 rounded-full shadow-lg flex items-center gap-3 z-50">
-            <audio ref={audioRef} src="/music/bgm.mp3" loop />
+            <audio ref={audioRef} src="./music/bgm.mp3" loop />
 
             <button
                 onClick={togglePlay}

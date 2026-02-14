@@ -3,11 +3,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 // In a real app, you might dynamically load these
 const IMAGES = [
-    '/images/IMG_20231214_154821.jpg',
-    '/images/IMG_20231214_154827.jpg',
-    '/images/IMG_20231214_154844.jpg',
-    '/images/IMG_20231214_193817.jpg',
-    '/images/IMG_20231214_193854.jpg',
+    './images/IMG_20231214_154821.jpg',
+    './images/IMG_20231214_154827.jpg',
+    './images/IMG_20231214_154844.jpg',
+    './images/IMG_20231214_193817.jpg',
+    './images/IMG_20231214_193854.jpg',
 ];
 
 export function Gallery() {
