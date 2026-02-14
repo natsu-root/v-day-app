@@ -60,9 +60,14 @@ function App() {
         ) : (
           <div className="container mx-auto max-w-4xl">
             <header className="text-center mb-12 animate-fade-in-down">
-              <h1 className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#8b4513] to-[#cd853f] font-['Cinzel'] mb-4 tracking-wider drop-shadow-sm">
-                Happy Valentine's Day, Aako
+              <h1 className="text-4xl md:text-6xl font-extrabold 
+bg-gradient-to-r from-rose-400 via-pink-500 to-red-500 
+text-transparent bg-clip-text 
+font-['Cinzel'] tracking-widest 
+drop-shadow-lg">
+                Happy Valentine's Day, Aako 💖
               </h1>
+
               <p className="text-xl text-[#8b5a2b] font-['Playfair_Display'] italic">My love, my memories, my everything.</p>
             </header>
 
